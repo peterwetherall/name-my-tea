@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<title>Name My Tea</title>
+	<meta name="robots" content="index, nofollow"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta type="description" content="Find out what your cup of tea is called now!"/>
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<link rel="stylesheet" media="screen and (min-width: 1000px)" href="style.css"/>
+	<link rel="stylesheet" media="screen and (max-width: 1000px)" href="mobile.css"/>
+	<meta property="og:title" content="Name My Tea"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="https://peter.ee/show/tea"/>
+	<meta property="og:image" content="https://peter.ee/show/tea/favicon.png"/>
+	<meta property="og:description" content="Find out what your cup of tea is called now!"/>
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:url" content="https://peter.ee/show/tea"/>
+	<meta name="twitter:title" content="Name My Tea"/>
+	<meta name="twitter:description" content="Find out what your cup of tea is called now!"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<article>
+		<aside>
+			<div id="mug"></div>
+		</aside>
+		<h3 class="st">YOUR TEA</h3>
+		<h1 id="name">SWEET BRITISH</h1>
+		<h2>&ldquo;Wow! #NameMyTea&rdquo;</h2>
+		<section>
+			<div id="twitter" class="sb"><img src="img/twitter.png" class="sb-icon" draggable="false"/></div>
+			<!-- Facebook app link no longer valid, Google+ no longer available to general public -->
+			<!--<div id="xfacebook" class="sb"><img src="img/facebook.png" class="sb-icon" draggable="false"/></div>-->
+			<!--<div id="xgooglep" class="sb"><img src="img/googlep.png" class="sb-icon" draggable="false"/></div>-->
+			<div id="email" class="sb"><img src="img/email.png" class="sb-icon" draggable="false"/></div>
+		</section>
+		<h3 class="st gb">MILK PERCENTAGE</h3>
+		<h3 class="st di">0%</h3><h3 class="st fr di">50%</h3>
+		<input type="range" id="milk" min="0" max="200" value="125" step="1" class="gb"/><br/><br/>
+		<h3 class="st gb">SUGARS/SWEETENERS</h3>
+		<select id="sugar" class="gb">
+			<option value="0">None</option>
+			<option value="1" selected="selected">One</option>
+			<option value="2">Two+</option>
+		</select>
+	</article>
+</body>
+</html>
