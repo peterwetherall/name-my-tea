@@ -10,13 +10,13 @@ $(document).ready(function(){
 	$("#twitter").click(function(){
 		var curtea = titleCase($("h1").html());
 		curtea = curtea.replace(/ /g, "%20");
-		var tweet = "https://twitter.com/intent/tweet?url=https%3A%2F%2Fpeter.ee%2Fshow%2Ftea&text=I%20just%20found%20out%20that%20my%20tea%20is:%20%22" + curtea + "%22%20-what%20is%20yours%3F&hashtags=NameMyTea";
+		var tweet = "https://twitter.com/intent/tweet?url=https%3A%2F%2Fpeterwetherall.github.io%2Fname-my-tea%2F&text=I%20just%20found%20out%20that%20my%20tea%20is:%20%22" + curtea + "%22%20-what%20is%20yours%3F&hashtags=NameMyTea";
 		window.open(tweet,'_blank');
 	});
 	$("#email").click(function(){
 		var curtea = titleCase($("h1").html());
 		curtea = curtea.replace(/ /g, "%20");
-		var email = "mailto:?subject=" + curtea + "%20is%20my%20tea!%20What%27s%20yours%3F&body=Find%20out%20at%3A%20https%3A%2F%2Fpeter.ee%2Fshow%2Ftea";
+		var email = "mailto:?subject=" + curtea + "%20is%20my%20tea!%20What%27s%20yours%3F&body=Find%20out%20at%3A%20https%3A%2F%2Fpeterwetherall.github.io%2Fname-my-tea%2F";
 		window.location.href = email;
 	});
 	$("#milk, #suger").change(upTea);
