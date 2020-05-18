@@ -5,7 +5,7 @@ Name My Tea (formerly [namemytea.com](https://web.archive.org/web/20180712213923
 
 The site allows you to input the "milkiness" of your tea and how many sugars you take, and then gives you the name of this milk/sugar combination.
 
-Live demo: [https://peter.ee/show/tea](https://peter.ee/show/tea)
+**Demo**: [https://peterwetherall.github.io/name-my-tea/](https://peterwetherall.github.io/name-my-tea/)
 
 ### Future ideas 💡
 
